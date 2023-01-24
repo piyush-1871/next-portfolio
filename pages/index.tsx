@@ -23,7 +23,7 @@ export default function Home() {
       scrollbar-thumb-[#F7AB0A]/80 scrollbar-thin"
     >
       <Head>
-        <title>Piyush's Portfolio</title>
+        <title>Piyush&apos;s Portfolio</title>
       </Head>
 
       <Header />

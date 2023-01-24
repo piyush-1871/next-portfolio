@@ -45,7 +45,7 @@ function ContactMe({}: Props) {
             className="decoration-[#F7AB0A]/50
             underline"
           >
-            Let's Talk
+            Let&apos;s Talk
           </span>
         </h4>
 

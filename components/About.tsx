@@ -40,17 +40,17 @@ function About({}: Props) {
         className="-mb-28 md:mb-0 flex-shrink-0 w-32 h-32 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[380px]"
       />
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">Here's a <span className="underline decoration-[#F7AB0A]/50">little</span> {" "}
+        <h4 className="text-4xl font-semibold">Here&apos;s a <span className="underline decoration-[#F7AB0A]/50">little</span> {" "}
           background:
         </h4>
         <p className="text-sm ">
-          I'm 👨‍🦱Piyush Bhatnagar, currently a 3rd year student at Jamia Millia Islamia.
+          I&apos;m 👨‍🦱Piyush Bhatnagar, currently a 3rd year student at Jamia Millia Islamia.
           I have been coding for over 2 years now. 
           I have a little experience with Nodejs and Expressjs, 
           but I love to develop websites with Reactjs.
           Being a 🏎️Mechanical Engineer, I realised very early my interest in Website Development.
           So I started my 💻Coding journey with 📚Data Structures and Algorithms in C++,
-          then I realised that I haven't made anything that I can show
+          then I realised that I haven&apos;t made anything that I can show
           in my portfolio. So I took some online courses for 🧑‍💻MERN Stack Develoment and now I am here!! 
         </p>
       </div>

@@ -2,6 +2,8 @@ import React from "react";
 import BackgroundCircles from "./BackgroundCircles";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import Link from "next/link";
+import Image from "next/image";
+import chalal from "../images/chalal.jpg";
 
 type Props = {};
 
@@ -18,9 +20,9 @@ function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
-      <img
+      <Image
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://avatars.githubusercontent.com/u/103215931?v=4"
+        src={chalal}
         alt="my-image"
       />
 
