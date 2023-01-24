@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Awim from './organisation/Awim'
+import Emrald from "./organisation/Emrald";
 import Sae from './organisation/Sae'
 type Props = {};
 
@@ -37,6 +38,7 @@ function Experience({}: Props) {
         {/* Cards */}
         <Awim />
         <Sae />
+        <Emrald />
         
 
         {/* Cards */}
