@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import React from "react";
-import pb from  '../images/pb.jpg'
+import pbFlag from  '../images/pbFlag.jpg'
 import Image from "next/image";
+
 
 type Props = {};
 
@@ -35,7 +36,7 @@ function About({}: Props) {
           duration: 1.2,
         }}
         viewport={{ once: true }}
-        src='https://media.licdn.com/dms/image/D4D03AQFmqD_zFexALA/profile-displayphoto-shrink_400_400/0/1674592278599?e=1680134400&v=beta&t=kQMfi9z6SYIjGZsaPcVwtZQkss4TrkrkYJXQUhPdCrk'
+        src="https://lh3.googleusercontent.com/a/AEdFTp7S1wOBLCUBiKK2iJu2oU_uCuxaksFCIq_hBOvkPA=s360-p-rw-no"
         alt="my-pic"
         className="-mb-28 md:mb-0 flex-shrink-0 w-32 h-32 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[380px]"
       />
