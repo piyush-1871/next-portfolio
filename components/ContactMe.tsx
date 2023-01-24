@@ -69,7 +69,7 @@ function ContactMe({}: Props) {
               className="text-[#F7AB0A]
             h-7 w-7 animate-pulse"
             />
-            <p className="text-xl">Developer Lane</p>
+            <p className="text-xl">Faridabad, Haryana</p>
           </div>
 
           <div
@@ -87,18 +87,18 @@ function ContactMe({}: Props) {
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="flex flex-col space-y-3
-        w-fit max-auto"
+          w-fit max-auto"
         >
           <div className="flex space-x-2">
             <input
               {...register("name")}
-              className="contactInput"
+              className="contactInput w-48"
               type="text"
               placeholder="Name"
             />
             <input
               {...register("email")}
-              className="contactInput"
+              className="contactInput w-48"
               type="email"
               placeholder="Email"
             />
@@ -107,7 +107,7 @@ function ContactMe({}: Props) {
           <input
             {...register("subject")}
             placeholder="Subject"
-            className="contactInput"
+            className="contactInput w-96"
             type="text"
           />
 
@@ -119,7 +119,7 @@ function ContactMe({}: Props) {
           <button
             className="bg-[#F7AB0A] py-5
             px-10 rounded-md text-black font-bold
-            text-lg"
+            text-lg w-[350px] ml-4"
           >
             Submit
           </button>
