@@ -5,10 +5,10 @@ import { Url } from "url";
 type Props = {
   directionLeft?: boolean;
   img : string;
-  set : string;
+  
 };
 
-function Skill({ directionLeft, img, set }: Props) {
+function Skill({ directionLeft, img }: Props) {
   return (
     <div
       className="group relative flex 
@@ -31,25 +31,7 @@ function Skill({ directionLeft, img, set }: Props) {
         filter group-hover:grayscale transition duration-200
         ease-in-out"
       />
-      <div
-        className="absolute opacity-0
-      group-hover:opacity-80 transition 
-      duration-300 ease-in-out group-hover:bg-transparent
-      h-16 w-16 
-      rounded-full z-0"
-      >
-        <div
-          className="flex items-center
-        justify-center h-full"
-        >
-          <p
-            className="text-3xl font-bold
-          text-black opacity-100"
-          >
-            {set}
-          </p>
-        </div>
-      </div>
+      
     </div>
   );
 }
