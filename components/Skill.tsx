@@ -12,7 +12,7 @@ function Skill({ directionLeft, img, set }: Props) {
   return (
     <div
       className="group relative flex 
-    cursor-pointer"
+    cursor-pointer snap-mandatory snap-x"
     >
       <motion.img
         initial={{
@@ -27,7 +27,7 @@ function Skill({ directionLeft, img, set }: Props) {
         }}
         src={img}
         className="rounded-full border border-gray-500
-        object-cover w-20 h-20
+        object-cover w-16 h-16 
         filter group-hover:grayscale transition duration-200
         ease-in-out"
       />
@@ -35,7 +35,7 @@ function Skill({ directionLeft, img, set }: Props) {
         className="absolute opacity-0
       group-hover:opacity-80 transition 
       duration-300 ease-in-out group-hover:bg-transparent
-      h-20 w-20  
+      h-16 w-16 
       rounded-full z-0"
       >
         <div
