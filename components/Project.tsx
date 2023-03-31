@@ -6,11 +6,13 @@ type Props = {
   img : string;
   name: string;
   github: string;
+  deployed: string;
 }
 
-function Project({img, name, github}: Props) {
+function Project({img, name, github, deployed}: Props) {
   return (
     <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+      <Link href={deployed} target="_blank">
       <motion.img
         initial={{ y: -300, opacity: 0 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -20,6 +22,7 @@ function Project({img, name, github}: Props) {
         src={img}
         alt=""
       />
+      </Link>
 
       <div className="space-y-10 px-0 md:px-10 max-w-6xl">
         <h4 className="text-4xl font-semibold text-center">
