@@ -14,13 +14,13 @@ function ExperienceCard({}: Props) {
      
 
       <div className="px-0 md:px-10">
-        <h2 className="text-4xl font-light">HR Head</h2>
+        <h2 className="text-4xl font-light">General Secretary</h2>
         <p className="flex space-x-2 my-2">SAEJMI</p>
         
-        <p className="uppercase py-5 text-gray-300">Feb(2022) - Mar(2023)</p>
+        <p className="uppercase py-5 text-gray-300">Mar(2023) - Mar(2024)</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>My role is to maintain decorem in the society.</li>
-          <li>Make sure that every member of society is working as a team.</li>
+          <li>I am a member of Higher Council of the Society.</li>
+          <li>My role is to lead the society with the members of higher council.</li>
         </ul>
         
       </div>
