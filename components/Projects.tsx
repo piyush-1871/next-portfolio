@@ -64,16 +64,19 @@ export default function Projects({}: Props) {
         img="https://cdn.sanity.io/images/psxz3zqm/production/bca1ffd98033c69596a6d28f308288df54a1a9fc-1920x1080.png?rect=0,71,1920,948&w=2000&fit=max&auto=format"
         />
         <Project
+        deployed="https://weather-app-eosin-six-10.vercel.app/"
         github="https://github.com/piyush-1871/weather-app"
         name="Weather App"
         img="https://cdn.sanity.io/images/psxz3zqm/production/7967b0e9664bc87cdd06c3533e1d73d02e3635cb-1920x1080.png?rect=132,98,1673,924&w=2000&fit=max&auto=format"
         />
         <Project
+        deployed="https://dev-detective-one.vercel.app/"
         github="https://github.com/piyush-1871/Dev-Detective"
         name="Dev-Detective"
         img="https://cdn.sanity.io/images/psxz3zqm/production/400b6a30a6218ac6ea99e8aac5f97626bca27bc3-1920x1080.png?rect=98,98,1720,901&w=2000&fit=max&auto=format"
         />
         <Project
+        deployed="https://password-generator-nine-phi.vercel.app/"
         github="https://github.com/piyush-1871/Password-Generator"
         name="Password Generator"
         img="https://cdn.sanity.io/images/psxz3zqm/production/d9fcddaec9fb937fa82f4d798946f5b0649a293c-1920x1080.png?rect=0,115,1920,890&w=2000&fit=max&auto=format"
