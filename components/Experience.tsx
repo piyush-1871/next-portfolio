@@ -3,6 +3,7 @@ import React from "react";
 import Awim from './organisation/Awim'
 import Emrald from "./organisation/Emrald";
 import Sae from './organisation/Sae'
+import SaeGs from './organisation/SaeGs'
 type Props = {};
 
 function Experience({}: Props) {
@@ -37,8 +38,10 @@ function Experience({}: Props) {
       >
         {/* Cards */}
         <Awim />
+        <SaeGs />
         <Sae />
         <Emrald />
+        
         
 
         {/* Cards */}
